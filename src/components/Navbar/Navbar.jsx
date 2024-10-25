@@ -16,7 +16,7 @@ const Navbar = () => {
                     </ul>
                     <div className='flex gap-2 items-center border rounded-md py-1 px-4'>
                         <span className='text-base font-semibold'>
-                            0 Coin
+                            Coin
                         </span>
                         <span>
                             <img className='coin-logo' src={coin} alt="Coin Image" />

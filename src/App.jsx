@@ -1,13 +1,12 @@
-import './App.css'
+import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
-
   return (
     <>
       <header>
         <Navbar></Navbar>
-        
+        <Banner></Banner>
       </header>
       <main>
 
@@ -19,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
