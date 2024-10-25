@@ -1,12 +1,19 @@
+import { useState } from 'react';
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
+    const [coins, setCoins] = useState(0);
+
+    const addCoins = () => {
+        setCoins(coins + 500000);
+    };
+
   return (
     <>
       <header>
-        <Navbar></Navbar>
-        <Banner></Banner>
+      <Navbar coins={coins} />
+      <Banner addCoins={addCoins}/>
       </header>
       <main>
 
@@ -16,6 +23,6 @@ function App() {
       </footer>
     </>
   )
-}
+};
 
 export default App;
