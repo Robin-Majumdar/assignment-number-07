@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Blogs from './components/Blogs/Blogs';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         </section>
       </main>
       <footer>
-        
+        <Footer></Footer>
       </footer>
     </>
   )
